@@ -8,8 +8,8 @@ Development of a software system aimed at visual inspection of motorcycle connec
 
 For each connecting rod appearing in the image, the vision system should provide the following information:
 1. Type of rod (A or B).
-2. Position and orientation (modulo ).
-3. Length (L), Width (W), Width at the barycenter (WB).
+2. Position and orientation (modulo pi).
+3. Length (L), Width (W), Width at the barycenter (wB).
 4. For each hole, position of the centre and diameter size.
 
 While still meeting the requirement, the system should deal with one (or more) of the following three changes in the characteristics of the working images:
